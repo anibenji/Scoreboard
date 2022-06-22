@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+   
+}
+
+.main {
+    width: 500px;
+    margin: 50px auto 0 auto;
+    background: #2a9d8f;
+    border-radius: 7px;
+    border: 6px solid #264653;
+}
+
+h3 {
+    font-size: 30px;
+    margin-top: -20px;
+}
+
+.container {
+    width: 500px;
+    height: 300px;
+    margin: 0 auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home, .guest {
+    text-align: center;
+    color: aliceblue;
+}
+
+.score {
+    border: 2px solid #264653;
+    border-radius: 3px;
+    color: aliceblue;
+    font-size: 30px;
+    width: 70%;
+    margin: 10px auto 25px auto;
+    background: #264653;
+}
+
+.newgame-btn {
+    text-align: center;
+    margin-top: -20px;
+    padding-bottom: 25px;
+}
+
+button {
+    padding: 7px 15px 7px 15px;
+    background: aliceblue;
+    border: none;
+    border-radius: 3px;
+    color: #264653;
+    font-weight: bold;
+}
+
